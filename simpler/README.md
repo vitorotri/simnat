@@ -9,7 +9,7 @@ Simple simulations in natural sciences, coded in python.
 After have python and pip installed, install the requirements with:
 
 ```bash
-  $ pip install numpy matplotlib
+  $ pip install numba numpy matplotlib
 ```
     
 ## Usage
