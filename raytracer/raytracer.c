@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2025 Vito Romanelli Tricanico
  *
- * SPDX-License-Identifier: BSD-2-Clause
+ * SPDX-License-Identifier: BSD-2-Clause (see License)
  */
  
 // usage: ./raytracer <resolution>
