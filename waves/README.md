@@ -1,4 +1,3 @@
-
 # 2D Wave Equation Demonstration
 
 This python script shows the behavior of the 2D mechanical wave equation on a domain with specific boundary conditions (absorbing, reflecting) and inital conditions.
