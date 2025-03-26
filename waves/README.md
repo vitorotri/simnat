@@ -5,11 +5,11 @@ This python script shows the behavior of the 2D mechanical wave equation on a do
 
 ## Theoretical Background
 
-The 2D wave equation for a field u(x,y,t) is given by 
+The 2D wave equation for a field $u(x,y,t)$ is given by 
 
-$$\dfrac{\partial u}{t} = c^2 \Delta u$$,
+$$\dfrac{\partial u}{\partial t} = c^2 \Delta u$$,
 
-where c is the speed of sound and $\Delta$ the Laplacian. The scheme for this equation follows the standard Lepfrog scheme written as 
+where $c$ is the speed of sound and $\Delta$ the Laplacian. The scheme for this equation follows the standard Lepfrog scheme written as 
 
 $$u_{i,j}^{n+1} = \dfrac{1}{2}(u_{i+1,j}^{n} + u_{i-1,j}^{n} + u_{i,j+1}^{n} + u_{i,j-1}^{n}) - u_{i,j}^{n-1}$$,
 
