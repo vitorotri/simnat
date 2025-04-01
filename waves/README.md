@@ -12,7 +12,7 @@ where $c$ is the speed of sound and $\Delta$ the Laplacian. The FDTD scheme for 
 
 $$u_{i,j}^{n+1} = \dfrac{1}{2}(u_{i+1,j}^{n} + u_{i-1,j}^{n} + u_{i,j+1}^{n} + u_{i,j-1}^{n}) - u_{i,j}^{n-1}$$,
 
-for given grid positions $i, j$ and time step $n$.
+for given grid positions $i, j$ and time step $n$, considering a CFL number of $1 / \sqrt{2}$ in the threshold of the stability condition (see reference [2]).
 
 
 ## Installation
